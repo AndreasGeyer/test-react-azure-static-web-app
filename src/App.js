@@ -23,6 +23,7 @@ function App() {
         
         
 
+        <p>API URL: <b>{process.env.REACT_APP_API_URL}</b></p>
         <p>API response: <b>{message}</b></p>
         <button onClick={() => alert('Chrissi is the best <3')}>Show Message</button>
       </header>
